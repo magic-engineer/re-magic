@@ -48,7 +48,6 @@ const App = () => {
         <div className="title">公演情報</div>
           <div className="info">
             <div>{dayjs(ProductionInfo['stage-date']).format("YYYY/MM/DD (ddd)")}</div>
-            <div>開場: {dayjs(ProductionInfo['open-datetime']).format("HH:mm")}</div>
             <div>開演: {dayjs(ProductionInfo['start-datetime']).format("HH:mm")}</div>
             <div>終演: {dayjs(ProductionInfo['end-datetime']).format("HH:mm")}</div>
             <div className='location'>{ProductionInfo.location}</div>
