@@ -32,16 +32,16 @@ export const members: Members = {
             phonetic: "ふくむろゆきなが",
         },
         {
-            name: "吉永悠人",
-            phonetic: "よしながゆうと",
+            name: "スプーン",
+            phonetic: "すぷーん",
         },
         {
             name: "若林良介",
             phonetic: "わかばやしりょうすけ",
         },
         {
-            name: "川口公尚",
-            phonetic: "かわぐち"
+            name: "Magic Engineer!? Kimi",
+            phonetic: "まじっくえんじにあきみ"
         }
     ],
     staffs: [

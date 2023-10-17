@@ -22,15 +22,14 @@ const App = () => {
     <motion.div 
           className='card'
           animate={{
-            scale: ["0%", "100%"],
-            rotate: [0, 360],
+            opacity: [0, 0, 1],
             translateX: ["-50%"],
             translateY: ["-50%"],
           }}
           transition={{
-            duration: 2,
+            duration: 3,
             ease: "easeInOut",
-            times: [0, 1],
+            times: [0, 0.2, 1],
           }}
           onAnimationComplete={() => {
             setTransitionEnd(true) 
