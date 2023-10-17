@@ -22,14 +22,14 @@ const App = () => {
     <motion.div 
           className='card'
           animate={{
-            opacity: [0, 0, 1],
+            opacity: [0, 1],
             translateX: ["-50%"],
             translateY: ["-50%"],
           }}
           transition={{
-            duration: 3,
+            duration: 2.5,
             ease: "easeInOut",
-            times: [0, 0.2, 1],
+            times: [0, 1],
           }}
           onAnimationComplete={() => {
             setTransitionEnd(true) 
@@ -140,10 +140,10 @@ justify-content: center;
     position: fixed;
     top: 100px;
     &.left {
-      left: 50px;
+      left: 30px;
     }
     &.right {
-      right: 50px;
+      right: 20px;
     }
     .members {
       margin-bottom: 30px;
@@ -184,11 +184,14 @@ height: 1000px;
   }
   .note {
     color: white;
-    margin: 20px auto 30px auto;
+    margin: 30px auto 30px auto;
     text-align: center;
     .title {
       font-weight: bold;
       margin: 10px auto 10px auto;
+    }
+    .members {
+      margin-bottom: 30px;
     }
     .info {
       margin: 0 auto 10px auto;

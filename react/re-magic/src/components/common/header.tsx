@@ -1,13 +1,25 @@
 import styled from "styled-components"
 import logo_01 from "@/assets/img/logo_01.png"
 import MenuIcon from '@mui/icons-material/Menu';
+import { useState } from "react";
+import SideBar from "../sideBar";
 
 const Header = () => {
+    const [showSideBar, setShowSideBar] = useState(false)
+
     return (
         <HeaderStyle>
             <div className="left-item" onClick={() => { window.location.href = "/" }}>
             </div>
-            <div className="hamburger"><MenuIcon fontSize="large" sx={{color: "black"}} /></div>
+            <div 
+                className="hamburger"
+                onClick={() => {setShowSideBar(true)}}
+            >
+                <MenuIcon fontSize="large" sx={{color: "black"}} />
+            </div>
+            {
+                showSideBar ? <SideBar onClose={() => {setShowSideBar(false)}} /> : <></>
+            }
         </HeaderStyle>
     )
 }
