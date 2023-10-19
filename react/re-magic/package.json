@@ -33,7 +33,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "craco-start": "craco start",
-    "craco-build": "craco build && cp -pR ./build/* ../../Site",
+    "craco-build": "craco build && cp -pr ./build/* ../../Site",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

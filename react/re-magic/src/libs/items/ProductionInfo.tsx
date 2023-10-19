@@ -20,13 +20,13 @@ type Production = {
 }
 export const productions: Production[] = [
     {
-        name: "第一回 Re:magic",
+        name: "第一回 Re: magic",
         link: "/20161010.html",
         thumbnail: remagicPoster,
         date: "2016/10/10"
     },
     {
-        name: "第二回 Re:magic",
+        name: "第二回 Re: magic",
         link: "/20180107.html",
         thumbnail: remagic2Poster,
         date: "2018/01/07",
