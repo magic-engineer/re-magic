@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.04bbd64a.css",
-    "main.js": "/static/js/main.8ad58a94.js",
+    "main.js": "/static/js/main.c018501f.js",
     "static/js/787.ae3c3301.chunk.js": "/static/js/787.ae3c3301.chunk.js",
     "static/media/remagic-poster.png": "/static/media/remagic-poster.c4f9445eac90856dab9f.png",
     "static/media/Background.png": "/static/media/Background.4ea9576fb988f6569fd5.png",
     "static/media/remagic2-poster.png": "/static/media/remagic2-poster.d291300860cfdf8e648e.png",
-    "static/media/Card.png": "/static/media/Card.7005dbad0f55a30b65e1.png",
-    "static/media/logo_01.png": "/static/media/logo_01.5c789a547ee9092d91af.png",
+    "static/media/Card.png": "/static/media/Card.fb98154d9344810dff7c.png",
+    "static/media/logo_01.png": "/static/media/logo_01.35c22cdbbc2d83beeefd.png",
     "index.html": "/index.html",
     "main.04bbd64a.css.map": "/static/css/main.04bbd64a.css.map",
-    "main.8ad58a94.js.map": "/static/js/main.8ad58a94.js.map",
+    "main.c018501f.js.map": "/static/js/main.c018501f.js.map",
     "787.ae3c3301.chunk.js.map": "/static/js/787.ae3c3301.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04bbd64a.css",
-    "static/js/main.8ad58a94.js"
+    "static/js/main.c018501f.js"
   ]
 }
