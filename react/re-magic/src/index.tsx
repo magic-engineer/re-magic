@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/common/header';
 import Productions from './pages/Productions';
+import Reservation from './pages/Reservation';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -17,6 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/productions" element={<Productions />} />
+        <Route path="/reservation" element={<Reservation />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -7,7 +7,8 @@ export const ProductionInfo = {
     "start-datetime": "2024/02/03 18:30",
     "end-datetime": "2024/02/03 20:00",
     location: "牛込箪笥区民ホール",
-    googleMapURL: "https://maps.app.goo.gl/tNQ4tn8rdaRcy8cd8"
+    googleMapURL: "https://maps.app.goo.gl/tNQ4tn8rdaRcy8cd8",
+    reservationUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfw16JIDMfJ7zSoYXJT-eSwMX2bAcVmBqDXQmyoz50nWZyHYQ/viewform?usp=sf_link",
 }
 
 
