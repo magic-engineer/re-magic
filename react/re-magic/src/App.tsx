@@ -9,6 +9,7 @@ import { ProductionInfo } from './libs/items/ProductionInfo';
 import dayjs from 'dayjs';
 import Button from './components/common/button/button';
 import { members } from './libs/items/Members';
+import { constants } from 'buffer';
 
 const App = () => {
   const [transitionEnd, setTransitionEnd] = useState(false)
@@ -56,6 +57,13 @@ const App = () => {
               label={"Google Map"}
               onClick={() => { window.open(ProductionInfo.googleMapURL) }}
             />
+            <div style={{ margin: "30px auto 10px auto" }}>
+              <Button 
+                buttonType="default-red"
+                label={"予約フォームへ"}
+                onClick={() => { window.open(ProductionInfo.reservationUrl) }}
+              />
+            </div>
         </div>
       </>) : <></>}
     </div>

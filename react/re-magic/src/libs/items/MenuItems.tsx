@@ -15,4 +15,9 @@ export const menuItems: MenuItems = [
         subtitle: "Productions",
         link: "/productions",
     },
+    {
+        name: "予約",
+        subtitle: "Reservation",
+        link: "/reservation",
+    },
 ]

@@ -1,0 +1,1 @@
+export const RESERVATION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfw16JIDMfJ7zSoYXJT-eSwMX2bAcVmBqDXQmyoz50nWZyHYQ/viewform?usp=sf_link"
