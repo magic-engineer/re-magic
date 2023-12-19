@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04bbd64a.css",
-    "main.js": "/static/js/main.e526a64e.js",
+    "main.js": "/static/js/main.b194759e.js",
     "static/js/787.ae3c3301.chunk.js": "/static/js/787.ae3c3301.chunk.js",
     "static/media/remagic-poster.png": "/static/media/remagic-poster.c4f9445eac90856dab9f.png",
     "static/media/Background.png": "/static/media/Background.4ea9576fb988f6569fd5.png",
@@ -10,11 +10,11 @@
     "static/media/logo_01.png": "/static/media/logo_01.35c22cdbbc2d83beeefd.png",
     "index.html": "/index.html",
     "main.04bbd64a.css.map": "/static/css/main.04bbd64a.css.map",
-    "main.e526a64e.js.map": "/static/js/main.e526a64e.js.map",
+    "main.b194759e.js.map": "/static/js/main.b194759e.js.map",
     "787.ae3c3301.chunk.js.map": "/static/js/787.ae3c3301.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04bbd64a.css",
-    "static/js/main.e526a64e.js"
+    "static/js/main.b194759e.js"
   ]
 }

@@ -172,7 +172,7 @@ justify-content: center;
 const AppStyle = styled.div`
 background-color: black;
 padding: 100px 0 50px 0;
-height: 1000px;
+height: auto;
   .home {
     margin: auto;
     width: 100vw;
